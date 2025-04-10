@@ -3,7 +3,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f0f0f0;
+    background-color: #a14848;
     margin: 0;
     font-family: sans-serif;
 }
@@ -14,6 +14,7 @@ body {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     overflow: hidden;
     width: 300px;
+    margin:auto 0;
 }
 
 .display {
@@ -21,10 +22,11 @@ body {
     color: white;
     font-size: 2.5em;
     padding: 20px;
-    text-align: right;
+    text-align: center;
     min-height: 40px; /* Ensure display has height even when empty */
     word-wrap: break-word; /* Prevent long numbers from overflowing */
     word-break: break-all;
+
 }
 
 .buttons {
